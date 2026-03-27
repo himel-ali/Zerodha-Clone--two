@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  border: border-box;
+  color: #424242;
+}
+body{
+    color: #555;
+}
+#navBar{
+    height: 67px;
+    background-color: #ffffff;
+    padding: 0px 20px ;
+    color: #424242;
+    box-shadow: 2px 1px 2px #eee;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#logoZerodha{
+    width: 150px;
+}
+#heroSection{
+    margin-top: 50px;
+    padding: 0 20px 20px 20px;
+    color: #424242;
+    
+}
+#container{
+    padding: 30px 20px;
+    height: auto;
+    margin-left: 190px;
+    margin-right: 190px;
+     display: flex;
+  flex-direction: column;    /* stack items vertically */
+  align-items: center;       /* center horizontally */
+  justify-content: center;   /* center vertically */
+  text-align: center;
+}
+#heroImg{
+    max-height: 45vh;
+    margin-bottom: 60px;
+}
+#button{
+    margin-top: 50px;
+    background-color: #387ed1;
+    border:  solid rgba(0,0,0,0) ;
+    border-radius: 3%;
+    color: #ffffff !important;
+    height: 45px;
+    width: 170px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#button:hover {
+  background-color: black;
+
+}
+#list{
+    width: 45vw;
+}
+#list li{
+    display: inline;
+}
+#list{
+    display: flex;
+        justify-content: space-evenly;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+}
+.listLink{
+    color: #424242;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    
+}
+#productFeatures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0px 200px;
+}
+#productFeaturesDescription{
+    height: 650px;
+}
+#productFeatureImg{
+    height:80vh;
+}
+.productFeaturesColumn{
+    margin-top: 23px;
+}
+.prooductLink{
+    display: flex;
+    justify-content: center;
+}
